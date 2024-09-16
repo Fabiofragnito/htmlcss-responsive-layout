@@ -104,7 +104,7 @@ main{
 
 }
 
-.fa {
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-pinterest,.fa-youtube {
     padding: 20px;
     font-size: 20px;
     width: 50px;
@@ -157,6 +157,37 @@ main{
     margin-top: 20px;
     border:solid 2px orange
     
+   
+}
+
+.long-text{
+    font-size: 30px;
+    margin-top: 15px;
+    padding:2rem 1rem ;
+    margin-bottom: 30px;
+  
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    a{
+        font-size: 20px;padding: 1rem 1rem;
+        text-decoration: none;color: white;
+    }
+   
+    
+}
+.subtitle-ffoter{
+    font-size: 20px;text-align: center;margin-top: 20px;
+}
+footer{
+    background-color: #7c69a4;
+    color: white;
+    p{
+        font-size: 20px;text-align: center;margin-top: 50px;
+    }
    
 }
 :root{
