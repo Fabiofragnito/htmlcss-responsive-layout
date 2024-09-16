@@ -17,6 +17,7 @@
     width: 80%;
     max-width: 1200px;
     margin: auto;
+
 }
 
 .row{
@@ -44,7 +45,15 @@ header h1{
     
 }
 
+main{
+    background-color:var(--primary) ;
+    
+}
+
 h3{color: var(--bool-subtitle);
+    font-size: 30px;
+    font-family: "Nerko One", cursive;
+    font-weight: bold;
 
 }
 
@@ -52,6 +61,7 @@ h3{color: var(--bool-subtitle);
 :root{
     --bool-title:#fe9514;
     --bool-subtitle:#4e3969;
+    --primary:#f6f5f3;
 }
 
 
