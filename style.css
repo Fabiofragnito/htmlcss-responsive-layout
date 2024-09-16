@@ -138,7 +138,10 @@ main{
 .fa-youtube{
     color: var(--youtube-icon);
 }
+.banner{
+    display: none;
 
+}
 .bottom-main{
     .subtitle{font-family: Montserrat, 'Helvetica Neue', sans-serif;;
         font-size: 40px;
@@ -170,8 +173,13 @@ main{
 .long-text{
     font-size: 30px;
     margin-top: 15px;
-    padding:2rem 1rem ;
+    padding:1.5rem 1.5rem ;
     margin-bottom: 30px;
+    p{
+        text-align: left;
+       
+    }
+    
   
 }
 .flex-container{
@@ -253,8 +261,23 @@ footer{
         margin: auto;
         text-align: center;
       }
+      .banner{
+        display: inline-block;
+        img{
+            max-width: 100%;
+        }
+      }
+
+      .pic-text{
+        img{float: left;}
+       
+        
+        
+      }
 
 }
+
+
 
 
 
